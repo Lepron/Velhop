@@ -1,0 +1,31 @@
+<div  [style.height.px]="height" [class]="classheight" (pan)="tapEvent($event)">
+	<div [class]="titleDivClass" [style.height.px]="lvl0height"> 
+		<button (click)="switchEtape()" fab dark fab-right fab-fixe style="margin-top:-45px" [style.visibility]="btnVisibility"><ion-icon *ngIf="isEtape1()" name="ios-arrow-down"></ion-icon><ion-icon *ngIf="!isEtape1()" name="ios-arrow-up"></ion-icon></button>
+		<p class="headerTitle">{{title}}</p>
+		
+		 <ion-row *ngIf="isStation()">
+			<ion-col width-50 class="headerBadge"><span>Velhop dispo <ion-badge item-right >{{vDispo}}</ion-badge></span></ion-col>
+			<ion-col width-50 class="headerBadge"><span>Place libre <ion-badge item-right>{{pDispo}}</ion-badge></span></ion-col>
+			<!--<ion-col class="headerBadge" id="colTime"><span>5min</span></ion-col>-->
+		  </ion-row>
+	</div>
+	<div class="bodyState1">
+        <ion-list no-lines class="stationBody" *ngIf="isStation()">
+            <ion-item>
+                Velhop dispo <ion-badge item-right>{{vDispo}}</ion-badge>
+            </ion-item>
+            <ion-item>
+                Place libre <ion-badge item-right>{{pDispo}}</ion-badge></ion-item>
+        </ion-list>
+        
+        <div *ngIf="isCbAvailable()"><ion-icon name="card"></ion-icon>Cette station accepte les cartes de crédits.</div>
+        
+        <ion-list no-lines class="boutiqueBody" *ngIf="isBoutique()">
+            <p [innerHTML]="getHoraires()"></p>
+        </ion-list>
+
+	</div>
+</div>
+<div [class]="photoclass" [style.top.px]="topPhoto" [style.height.px]="photoHeight">
+	<img src="{{photo}}" height="100%">
+</div>

@@ -1,0 +1,23 @@
+<ion-menu id="myMeny" [content]="content">
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+    </ion-toolbar></ion-menu>
+
+
+
+<!-- <ion-header id="header">
+  <ion-navbar *navbar>
+      <button ion-button menuToggle icon-only color="royal" (click)="openMenu()">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+  </ion-navbar>
+</ion-header>
+-->
+
+
+<ion-content class="home">
+  <div id="map_canvas" [style.height.px]="heightCanvas" ></div>
+</ion-content>
+
+<bottom-sheet title='{{title}}' useState='{{bottomSheetOpen}}' vDispo='{{vDispo}}' cbAvailable='{{cbAvailable}}' id='{{id}}'
+	pDispo='{{pDispo}}' emplacement='{{vEmplacement}}' type='{{vType}}' (setLvl1)='toLvl1Event($event.results)' (canvasResize)='resizeCanvas($event.bottomSheetHeight)' x='{{x}}' y='{{y}}' ></bottom-sheet>

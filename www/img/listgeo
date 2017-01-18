@@ -1,0 +1,34 @@
+{"d":[],"s":[{"id":0,"go":{"x":7.734506610372,"y":48.585124209022},"ic":"velhop","ln":"Station\/boutique V\u00e9lhop \"Gare centrale\"","ad":"Niveau -1 Grande Verri\u00e8re de la gare","ty":"mixte"},
+
+{"id":1,"go":{"x":7.7666481641714,"y":48.582203670657},"ic":"velhop","ln":"Station V\u00e9lhop \"Universit\u00e9\"","ad":"","ty":"station"},
+
+{"id":2,"go":{"x":7.7340223115619,"y":48.530181109656},"ic":"velhop","ln":"Station V\u00e9lhop \"Campus d'Illkirch\"","ad":"","ty":"station"},
+
+{"id":3,"go":{"x":7.7518249973693,"y":48.577972805858},"ic":"velhop","ln":"Station V\u00e9lhop \"Parking Austerlitz\"","ad":"","ty":"station"},
+
+{"id":4,"go":{"x":7.7412039567766,"y":48.549413852845},"ic":"velhop","ln":"Station V\u00e9lhop \"Hohwart\"","ad":"","ty":"station"},
+
+{"id":5,"go":{"x":7.7350887487117,"y":48.585845177392},"ic":"velhop","ln":"Station V\u00e9lhop \"Gare Nord\"","ad":"","ty":"station"},
+
+{"id":6,"go":{"x":7.7494557302936,"y":48.585452297791},"ic":"velhop","ln":"Station V\u00e9lhop \"Parking Broglie\"","ad":"","ty":"station"},
+
+{"id":7,"go":{"x":7.7248699147393,"y":48.591774044972},"ic":"velhop","ln":"Station V\u00e9lhop \"Rotonde\"","ad":"Station tram Rotonde","ty":"station"},
+
+
+{"id":8,"go":{"x":7.713535389852,"y":48.579036513251},"ic":"velhop","ln":"Station V\u00e9lhop \"Koenigshoffen\"","ad":"67, route des Romains","ty":"station"},
+
+{"id":9,"go":{"x":7.7688348263961,"y":48.584407305581},"ic":"velhop","ln":"Station V\u00e9lhop \"Place Arnold\"","ad":"","ty":"station"},
+
+{"id":10,"go":{"x":7.7781819687631,"y":48.597865361905},"ic":"velhop","ln":"Station V\u00e9lhop \"Robertsau Boecklin\"","ad":"","ty":"station"},
+
+{"id":11,"go":{"x":7.713170400148,"y":48.55107545968},"ic":"velhop","ln":"Station V\u00e9lhop \"Ostwald - H\u00f4tel de Ville\"","ad":"","ty":"station"},
+
+{"id":12,"go":{"x":7.7498395076597,"y":48.578379599957},"ic":"velhop","ln":"Station\/boutique V\u00e9lhop \"Centre\"","ad":"3 rue d'Or","ty":"mixte"},
+
+{"id":13,"go":{"x":7.7338932835006,"y":48.5842574636},"ic":"velhop","ln":"Station V\u00e9lhop \"Gare Sud\"","ad":"","ty":"station"},
+
+{"id":14,"go":{"x":7.7620979728917,"y":48.583300913713},"ic":"velhop","ln":"Boutique V\u00e9lhop \"Esplanade\"","ad":"23 boulevard de la Victoire","ty":"boutique"},
+
+{"id":15,"go":{"x":7.7588932005443,"y":48.628180279101},"ic":"velhop","ln":"Station V\u00e9lhop \"Hoenheim Gare\"","ad":"","ty":"station"},
+
+{"id":16,"go":{"x":7.776524158102,"y":48.580579260558},"ic":"velhop","ln":"Station V\u00e9lhop \"Place d'Islande\"","ad":"","ty":"station"}]}
